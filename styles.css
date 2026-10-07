@@ -83,6 +83,11 @@ a:hover { color: var(--accent-hover); }
   margin-left: auto;
 }
 
+.nav-desktop,
+.lang-desktop {
+  display: none;
+}
+
 .brand {
   font-weight: 800;
   font-size: 1.35rem;
@@ -190,13 +195,14 @@ details.nav-menu > summary::-webkit-details-marker { display: none; }
 .cta-row { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1.5rem; }
 
 @media (min-width: 860px) {
-  .nav-menu > summary { display: none; }
-  .nav-panel {
-    display: flex !important;
-    flex-direction: row;
-    align-items: center;
-    gap: 1.25rem;
-    padding: 0;
+  .nav-menu { display: none; }
+  .nav-desktop {
+    display: flex;
+    margin-left: auto;
+  }
+  .lang-desktop {
+    display: inline-flex;
+    flex-shrink: 0;
   }
 }
 
