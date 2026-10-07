@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kontakt og om meg – Snuttverk</title>
+  <meta name="description" content="Bestill en gratis samtale med Willy Edison Martínez Lozano. Snuttverk – innhold og korte videoer for små bedrifter i Oslo.">
+  <link rel="canonical" href="https://snuttverk.pages.dev/kontakt/">
+  <link rel="alternate" hreflang="nb" href="https://snuttverk.pages.dev/kontakt/">
+  <link rel="alternate" hreflang="es" href="https://snuttverk.pages.dev/es/contacto/">
+  <link rel="alternate" hreflang="x-default" href="https://snuttverk.pages.dev/kontakt/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Snuttverk">
+  <meta property="og:locale" content="nb_NO">
+  <meta property="og:title" content="Kontakt og om meg – Snuttverk">
+  <meta property="og:description" content="Bestill en gratis samtale. Oslo – norsk og spansk.">
+  <meta property="og:url" content="https://snuttverk.pages.dev/kontakt/">
+  <meta property="og:image" content="https://snuttverk.pages.dev/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Kontakt og om meg – Snuttverk">
+  <meta name="twitter:description" content="Bestill en gratis samtale.">
+  <meta name="twitter:image" content="https://snuttverk.pages.dev/og-image.png">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/form.js" defer></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Hjem", "item": "https://snuttverk.pages.dev/"},
+      {"@type": "ListItem", "position": 2, "name": "Kontakt", "item": "https://snuttverk.pages.dev/kontakt/"}
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#innhold">Hopp til innhold</a>
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="brand" href="/">Snuttverk</a>
+      <details class="nav-menu">
+        <summary class="nav-toggle" aria-label="Meny">Meny</summary>
+        <div class="nav-panel">
+          <nav class="nav-links" aria-label="Hovedmeny">
+            <a href="/pakker/">Pakker og priser</a>
+            <a href="/video-og-ugc/">Video og UGC</a>
+            <a href="/slik-jobber-jeg/">Slik jobber jeg</a>
+            <a href="/arbeid/">Arbeid</a>
+            <a href="/kontakt/#om-meg">Om meg</a>
+            <a class="btn btn-primary" href="/kontakt/" aria-current="page">Kontakt</a>
+          </nav>
+          <div class="lang" aria-label="Språk">
+            <span aria-current="true">NO</span>
+            <a href="/es/contacto/" lang="es" hreflang="es">ES</a>
+          </div>
+        </div>
+      </details>
+    </div>
+  </header>
+
+  <main id="innhold">
+    <section>
+      <div class="wrap">
+        <h1>Kontakt</h1>
+        <p class="lead">Fortell litt om bedriften din, så avtaler jeg en gratis samtale med deg.</p>
+
+        <ul class="contact-list">
+          <li>Telefon: <a href="tel:+4791290416">+47 912 90 416</a></li>
+          <li>E-post: <a href="mailto:willynoslo17@gmail.com?subject=Snuttverk">willynoslo17@gmail.com</a></li>
+          <li>Adresse: Norbygata 19, 0187 Oslo, Norge</li>
+        </ul>
+
+        <form
+          id="kontakt-form"
+          class="form"
+          data-lang="nb"
+          action="mailto:willynoslo17@gmail.com?subject=Snuttverk"
+          method="post"
+          enctype="text/plain"
+        >
+          <label>
+            Navn
+            <input type="text" name="navn" required maxlength="120" autocomplete="name">
+          </label>
+          <label>
+            Bedrift (valgfritt)
+            <input type="text" name="bedrift" maxlength="160" autocomplete="organization">
+          </label>
+          <label>
+            E-post
+            <input type="email" name="epost" required maxlength="200" autocomplete="email">
+          </label>
+          <label>
+            Telefon (valgfritt)
+            <input type="tel" name="telefon" maxlength="40" autocomplete="tel">
+          </label>
+          <label>
+            Nettside eller kanaler (valgfritt)
+            <input type="text" name="nettside" maxlength="200">
+          </label>
+          <label>
+            Pakke
+            <select name="pakke">
+              <option value="start">Start</option>
+              <option value="pluss">Pluss</option>
+              <option value="annonsevideo">Annonsevideo</option>
+              <option value="meta-annonser">Meta-annonser</option>
+              <option value="usikker" selected>Usikker</option>
+            </select>
+          </label>
+          <label>
+            Melding
+            <textarea name="melding" rows="5" maxlength="4000"></textarea>
+          </label>
+          <label class="check">
+            <input type="checkbox" name="samtykke" required>
+            <span>Jeg samtykker til at Snuttverk lagrer opplysningene mine for å svare på henvendelsen. Les <a href="/personvern/">personvernerklæringen</a>.</span>
+          </label>
+          <div class="hp" aria-hidden="true">
+            <label>Website <input type="text" name="website" tabindex="-1" autocomplete="off"></label>
+          </div>
+          <button class="btn btn-primary" type="submit">Send</button>
+          <p id="form-msg" class="form-msg" hidden></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="section-dark" id="om-meg">
+      <div class="wrap">
+        <h2>Om meg</h2>
+        <div class="about">
+          <!-- TODO: foto real -->
+          <img src="/img/willy.webp" alt="Willy Edison Martínez Lozano – plassholderbilde" width="640" height="800" loading="lazy">
+          <div>
+            <p>Jeg heter Willy Edison Martínez Lozano og bor i Oslo. Snuttverk er en del av ML Digital.</p>
+            <p>Fra 2015 til 2022 jobbet jeg med markedsføring og videoproduksjon hos Wecrops Perú. Jeg har også sju diplomer fra Toulouse Lautrec (2019–2021). <!-- TODO Willy: confirmar títulos exactos de los diplomas --></p>
+            <p>Jeg jobber på spansk og engelsk, og på norsk med kvalitetssikrede tekster.</p>
+            <p>Andre tjenester: <a href="https://willymartinez.no/consulting">Rådgivning i internasjonal handel</a>.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p class="footer-legal">Snuttverk er en del av ML Digital – MARTINEZ LOZANO INTERNASJONAL HANDEL · Org.nr. 935 407 095 MVA · Norbygata 19, 0187 Oslo · +47 912 90 416 · willynoslo17@gmail.com</p>
+      <ul class="footer-links">
+        <li><a href="/pakker/">Pakker og priser</a></li>
+        <li><a href="/personvern/">Personvern</a></li>
+        <li><a href="https://willymartinez.no/consulting">willymartinez.no/consulting</a></li>
+        <li>© 2026</li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
