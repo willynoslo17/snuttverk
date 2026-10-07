@@ -158,6 +158,15 @@ details.nav-menu > summary::-webkit-details-marker { display: none; }
   font-size: 0.95rem;
 }
 .nav-links a:hover { color: var(--accent); }
+.nav-links a.btn-primary {
+  color: var(--white);
+  font-size: 1rem;
+}
+.nav-links a.btn-primary:hover {
+  color: var(--white);
+  background: var(--accent-hover);
+  border-color: var(--accent-hover);
+}
 
 .btn {
   display: inline-flex;
