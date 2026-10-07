@@ -334,6 +334,35 @@ section { padding: 3.25rem 0; }
 }
 .section-dark a { color: var(--yellow); }
 .section-dark a:hover { color: var(--cream); }
+.section-dark a.btn-primary {
+  color: var(--white);
+  background: var(--accent);
+  border-color: var(--accent);
+}
+.section-dark a.btn-primary:hover {
+  color: var(--white);
+  background: var(--accent-hover);
+  border-color: var(--accent-hover);
+}
+.section-dark a.btn-ghost {
+  color: var(--cream);
+  border-color: var(--cream);
+  background: transparent;
+}
+.section-dark a.btn-ghost:hover {
+  color: var(--ink);
+  background: var(--cream);
+}
+.section-dark a.btn-light {
+  color: var(--ink);
+  background: var(--cream);
+  border-color: var(--cream);
+}
+.section-dark a.btn-light:hover {
+  color: var(--ink);
+  background: var(--yellow);
+  border-color: var(--yellow);
+}
 .section-dark .muted { color: #a8a29e; }
 .section-yellow { background: var(--yellow); color: var(--ink); }
 
