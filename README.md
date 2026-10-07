@@ -82,7 +82,7 @@ Se rotmappen: `/`, `/pakker/`, `/video-og-ugc/`, `/slik-jobber-jeg/`, `/arbeid/`
 - Ekte foto (`img/willy.webp`)
 - Bekrefte minimum 3 måneder for Start/Pluss
 - Bekrefte priser Pluss, Annonsevideo, Meta-annonser
-- 3 arbeider til Arbeid (med tillatelse fra Wecrops)
+- Eksempler til Arbeid (når det finnes materiale å vise)
 - Eksakte diplomititler (Toulouse Lautrec)
 - Om Start inkluderer 1 opptaksøkt på stedet per måned
 - Betalingsfrister og oppsigelsesvarsel
