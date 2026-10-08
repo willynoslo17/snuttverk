@@ -180,19 +180,10 @@ Videoene lages av opptak fra deg (mobil holder), eller fra en opptaksøkt hos de
 ## Arbeid (`/arbeid/`)
 
 **Title:** Arbeid – Snuttverk  
-**Meta description:** Bakgrunn fra 7 år med markedsføring og videoproduksjon hos Wecrops Perú. Se eksempler i en gratis samtale.
+**Meta description:** Eksempler på arbeid fra Snuttverk. Kommer snart.
 
 **H1:** Arbeid  
-**Lead:** Her legger jeg ut eksempler når jeg har tillatelse til å vise dem åpent.
-
-Fra 2015 til 2022 jobbet jeg med markedsføring og videoproduksjon hos Wecrops Perú i Chimbote – som ansatt, ikke som byrå. Der laget jeg innhold, video og kampanjemateriale for en arbeidsgiver over sju år.
-
-Wecrops nevnes bare som tidligere arbeidsgiver. Jeg viser ikke logoen deres her, og jeg oppgir ikke tall.
-
-**Vil du se eksempler? Jeg viser dem gjerne i en gratis samtale.**  
-**CTA:** Bestill en gratis samtale
-
-*(Kommentert grid for fremtidige videoer – ikke synlig.)*
+**Lead:** Kommer snart
 
 ---
 
