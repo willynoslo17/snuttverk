@@ -89,3 +89,10 @@ Se rotmappen: `/`, `/pakker/`, `/video-og-ugc/`, `/slik-jobber-jeg/`, `/arbeid/`
 - Aktivere søskennett når de er publisert
 - Bytt til snuttverk.no når domenet er kjøpt
 - Gjennomgang av norsk med Gemini (`TEXTOS_NO_PARA_REVISAR.md`)
+
+## Cloudflare Pages (Git)
+
+Proyecto conectado a GitHub: cada push a `main` publica automáticamente.
+- Build command: `sh scripts/build-dist.sh`
+- Build output directory: `dist` (excluye README, TEXTOS_NO_PARA_REVISAR.md, scripts/ y site.config.json)
+- Formulario: si `KONTAKT_WEBHOOK_URL` no está configurado, `form.js` abre el correo del visitante con el mensaje listo para kontakt@mlinternasjonal.no (mailto, sin secretos).
