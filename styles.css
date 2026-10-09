@@ -573,20 +573,10 @@ h3 {
 .form-msg.err { background: #fee2e2; color: #7f1d1d; }
 
 .about {
-  display: grid;
-  gap: 1.5rem;
-  align-items: start;
   margin-top: 1.5rem;
 }
-@media (min-width: 700px) {
-  .about { grid-template-columns: 12rem 1fr; }
-}
-.about img {
-  width: 12rem;
-  height: 15rem;
-  object-fit: cover;
-  border-radius: var(--radius-lg);
-  background: #e7e5e4;
+.about p {
+  margin: 0.75rem 0;
 }
 
 .contact-list {

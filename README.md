@@ -79,7 +79,6 @@ Se rotmappen: `/`, `/pakker/`, `/video-og-ugc/`, `/slik-jobber-jeg/`, `/arbeid/`
 
 ## TODO (Willy)
 
-- Ekte foto (`img/willy.webp`)
 - Bekrefte minimum 3 måneder for Start/Pluss
 - Bekrefte priser Pluss, Annonsevideo, Meta-annonser
 - Eksempler til Arbeid (når det finnes materiale å vise)

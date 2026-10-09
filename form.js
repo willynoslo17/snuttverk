@@ -18,13 +18,13 @@
       ? {
           ok: "¡Gracias! Respondo en 1 día laborable.",
           err:
-            'No se pudo enviar el formulario. Escríbeme a <a href="mailto:willynoslo17@gmail.com?subject=Snuttverk">willynoslo17@gmail.com</a>.',
+            'No se pudo enviar el formulario. Escríbeme a <a href="mailto:kontakt@mlinternasjonal.no?subject=Snuttverk">kontakt@mlinternasjonal.no</a>.',
           sending: "Enviando…",
         }
       : {
           ok: "Takk! Jeg svarer innen 1 virkedag.",
           err:
-            'Kunne ikke sende skjemaet. Send en e-post til <a href="mailto:willynoslo17@gmail.com?subject=Snuttverk">willynoslo17@gmail.com</a>.',
+            'Kunne ikke sende skjemaet. Send en e-post til <a href="mailto:kontakt@mlinternasjonal.no?subject=Snuttverk">kontakt@mlinternasjonal.no</a>.',
           sending: "Sender…",
         };
 
