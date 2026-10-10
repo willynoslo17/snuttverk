@@ -1,11 +1,13 @@
 (() => {
   const ALLOWED = new Set(["start", "pluss", "annonsevideo", "meta-annonser", "usikker"]);
+  const ENDPOINT = "https://ml-inbox.willynoslo17.workers.dev/lead";
   const form = document.getElementById("kontakt-form");
   if (!form) return;
 
   const select = form.querySelector('[name="pakke"]');
   const msg = document.getElementById("form-msg");
-  const lang = form.dataset.lang || "nb";
+  const submitBtn = form.querySelector('button[type="submit"]');
+  const tsInput = form.querySelector('[name="ts"]');
 
   const params = new URLSearchParams(window.location.search);
   const pakke = params.get("pakke");
@@ -13,63 +15,92 @@
     select.value = ALLOWED.has(pakke) ? pakke : "usikker";
   }
 
-  const copy =
-    lang === "es"
-      ? {
-          ok: "¡Gracias! Respondo en 1 día laborable.",
-          err:
-            'No se pudo enviar el formulario. Escríbeme a <a href="mailto:kontakt@mlinternasjonal.no?subject=Snuttverk">kontakt@mlinternasjonal.no</a>.',
-          sending: "Enviando…",
-        }
-      : {
-          ok: "Takk! Jeg svarer innen 1 virkedag.",
-          err:
-            'Kunne ikke sende skjemaet. Send en e-post til <a href="mailto:kontakt@mlinternasjonal.no?subject=Snuttverk">kontakt@mlinternasjonal.no</a>.',
-          sending: "Sender…",
-        };
+  if (tsInput) {
+    tsInput.value = String(Date.now());
+  }
+
+  function setStatus(text, kind) {
+    if (!msg) return;
+    msg.hidden = false;
+    msg.className = kind ? `form-msg ${kind}` : "form-msg";
+    msg.textContent = text;
+  }
+
+  function resetTurnstile() {
+    if (window.turnstile && typeof window.turnstile.reset === "function") {
+      window.turnstile.reset();
+    }
+  }
 
   form.addEventListener("submit", async (event) => {
     event.preventDefault();
-    if (!msg) return;
 
-    msg.hidden = false;
-    msg.className = "form-msg";
-    msg.textContent = copy.sending;
+    const token =
+      (form.querySelector('[name="cf-turnstile-response"]') &&
+        form.querySelector('[name="cf-turnstile-response"]').value) ||
+      "";
+
+    if (!token) {
+      setStatus("Vent til sikkerhetssjekken er ferdig, og prøv igjen.", "err");
+      return;
+    }
+
+    if (submitBtn) submitBtn.disabled = true;
 
     const data = new FormData(form);
+    const telefono = String(data.get("telefon") || "").trim();
     const payload = {
-      navn: String(data.get("navn") || "").trim(),
-      bedrift: String(data.get("bedrift") || "").trim(),
-      epost: String(data.get("epost") || "").trim(),
-      telefon: String(data.get("telefon") || "").trim(),
-      nettside: String(data.get("nettside") || "").trim(),
-      melding: String(data.get("melding") || "").trim(),
-      pakke: String(data.get("pakke") || "usikker"),
-      samtykke: data.get("samtykke") === "on" || data.get("samtykke") === "true",
+      nombre: String(data.get("navn") || "").trim(),
+      email: String(data.get("epost") || "").trim(),
+      telefono: telefono || "",
+      mensaje: String(data.get("melding") || "").trim(),
+      marca: "snuttverk",
+      pagina: window.location.pathname,
+      turnstile_token: token,
       website: String(data.get("website") || ""),
-      lang,
+      ts: Number(data.get("ts") || Date.now()),
     };
 
+    if (form.querySelector('[name="bedrift"]')) {
+      payload.empresa = String(data.get("bedrift") || "").trim();
+    }
+
     try {
-      const res = await fetch("/api/kontakt", {
+      const res = await fetch(ENDPOINT, {
         method: "POST",
-        headers: { "Content-Type": "application/json", Accept: "application/json" },
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),
       });
 
-      if (res.ok) {
-        msg.className = "form-msg ok";
-        msg.textContent = copy.ok;
+      if (res.status === 200) {
+        setStatus(
+          "Takk! Meldingen din er sendt. Vi tar kontakt så snart som mulig.",
+          "ok"
+        );
         form.reset();
         if (select) select.value = "usikker";
-        return;
+        if (tsInput) tsInput.value = String(Date.now());
+      } else if (res.status === 429) {
+        setStatus("For mange forsøk. Vent et minutt og prøv igjen.", "err");
+      } else if (res.status === 403) {
+        setStatus(
+          "Vi kunne ikke bekrefte at du er et menneske. Last inn siden på nytt og prøv igjen.",
+          "err"
+        );
+      } else {
+        setStatus(
+          "Beklager, noe gikk galt. Prøv igjen, eller send oss en e-post på kontakt@mlinternasjonal.no.",
+          "err"
+        );
       }
-
-      msg.className = "form-msg err";
-      msg.innerHTML = copy.err;
     } catch {
-      msg.className = "form-msg err";
-      msg.innerHTML = copy.err;
+      setStatus(
+        "Beklager, noe gikk galt. Prøv igjen, eller send oss en e-post på kontakt@mlinternasjonal.no.",
+        "err"
+      );
+    } finally {
+      resetTurnstile();
+      if (submitBtn) submitBtn.disabled = false;
     }
   });
 })();

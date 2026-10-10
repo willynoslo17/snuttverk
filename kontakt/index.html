@@ -22,7 +22,8 @@
   <meta name="twitter:image" content="https://snuttverk.pages.dev/og-image.png">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="/styles.css?v=2">
-  <script src="/form.js?v=2" defer></script>
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+  <script src="/form.js?v=3" defer></script>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -129,11 +130,11 @@
             <input type="checkbox" name="samtykke" required>
             <span>Jeg samtykker til at Snuttverk lagrer opplysningene mine for å svare på henvendelsen. Les <a href="/personvern/">personvernerklæringen</a>.</span>
           </label>
-          <div class="hp" aria-hidden="true">
-            <label>Website <input type="text" name="website" tabindex="-1" autocomplete="off"></label>
-          </div>
+          <input type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden">
+          <input type="hidden" name="ts">
+          <div class="cf-turnstile" data-sitekey="0x4AAAAAAFTHhaOtzzj9eenB" data-language="nb"></div>
           <button class="btn btn-primary" type="submit">Send</button>
-          <p id="form-msg" class="form-msg" hidden></p>
+          <p id="form-msg" class="form-msg" role="status" aria-live="polite" hidden></p>
         </form>
       </div>
     </section>
