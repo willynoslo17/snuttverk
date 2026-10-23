@@ -5,7 +5,7 @@ Snuttverk er en del av **ML Digital** (MARTINEZ LOZANO INTERNASJONAL HANDEL, Org
 
 Statisk HTML + CSS. Ingen build-steg. Hosting: **Cloudflare Pages** (gratis).
 
-**Midlertidig URL:** `https://snuttverk.pages.dev`  
+**Midlertidig URL:** `https://snuttverk.no`  
 **Domene snuttverk.no:** ikke kjøpt ennå (ledig hos Norid per 7. okt 2026).
 
 > Norske tekster er utkast. Se `TEXTOS_NO_PARA_REVISAR.md` før publisering. Ikke annonser nettsiden før norsk er gjennomgått.
@@ -38,11 +38,11 @@ node scripts/set-base-url.mjs https://snuttverk.no
 
 1. Gå til [Cloudflare Dashboard](https://dash.cloudflare.com/) → **Workers & Pages** → **Create** → **Pages** → **Connect to Git**.
 2. Velg repoet `willynoslo17/snuttverk`.
-3. Prosjektnavn: `snuttverk` (gir `https://snuttverk.pages.dev`).
+3. Prosjektnavn: `snuttverk` (gir `https://snuttverk.no`).
 4. **Build command:** tom (la stå blank).
 5. **Build output directory:** `/` (eller `.` / la stå som rot).
 6. Deploy.
-7. Hvis `snuttverk.pages.dev` allerede er opptatt: velg et annet prosjektnavn (f.eks. `snuttverk-oslo`), oppdater URL med  
+7. Hvis `snuttverk.no` allerede er opptatt: velg et annet prosjektnavn (f.eks. `snuttverk-oslo`), oppdater URL med  
    `node scripts/set-base-url.mjs https://<nytt-navn>.pages.dev` og push.
 
 ### Alternativ B: Wrangler

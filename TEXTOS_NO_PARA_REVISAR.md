@@ -2,7 +2,7 @@
 
 Alle synlige norske tekster på Snuttverk-nettstedet. Dette er **utkast**. Ikke publiser/annonser før gjennomgang.
 
-URL-base midlertidig: `https://snuttverk.pages.dev`
+URL-base midlertidig: `https://snuttverk.no`
 
 ---
 
@@ -21,7 +21,7 @@ URL-base midlertidig: `https://snuttverk.pages.dev`
 
 ## Felles (footer)
 
-- Snuttverk er en del av ML Digital – MARTINEZ LOZANO INTERNASJONAL HANDEL · Org.nr. 935 407 095 MVA · Norbygata 19, 0187 Oslo · +47 912 90 416 · kontakt@mlinternasjonal.no
+- Snuttverk er en del av ML Digital – MARTINEZ LOZANO INTERNASJONAL HANDEL · Org.nr. 935 407 095 MVA · Norbygata 19, 0187 Oslo · +47 912 90 416 · kontakt@snuttverk.no
 - Pakker og priser
 - Personvern
 - willymartinez.no/consulting
@@ -196,7 +196,7 @@ Videoene lages av opptak fra deg (mobil holder), eller fra en opptaksøkt hos de
 **Lead:** Fortell litt om bedriften din, så avtaler jeg en gratis samtale med deg.
 
 - Telefon: +47 912 90 416
-- E-post: kontakt@mlinternasjonal.no
+- E-post: kontakt@snuttverk.no
 - Adresse: Norbygata 19, 0187 Oslo, Norge
 
 ### Skjema (labels)
@@ -213,7 +213,7 @@ Videoene lages av opptak fra deg (mobil holder), eller fra en opptaksøkt hos de
 ### form.js (nb)
 - Sender…
 - Takk! Jeg svarer innen 1 virkedag.
-- Kunne ikke sende skjemaet. Send en e-post til kontakt@mlinternasjonal.no.
+- Kunne ikke sende skjemaet. Send en e-post til kontakt@snuttverk.no.
 
 ### Om meg
 **H2:** Om meg  
@@ -238,7 +238,7 @@ Andre tjenester: Rådgivning i internasjonal handel
 Sist oppdatert: 7. oktober 2026
 
 **Behandlingsansvarlig**  
-MARTINEZ LOZANO INTERNASJONAL HANDEL (enkeltpersonforetak), handelsnavn ML Digital / Snuttverk. Org.nr. 935 407 095 MVA. Norbygata 19, 0187 Oslo. E-post: kontakt@mlinternasjonal.no. Telefon: +47 912 90 416.
+MARTINEZ LOZANO INTERNASJONAL HANDEL (enkeltpersonforetak), handelsnavn ML Digital / Snuttverk. Org.nr. 935 407 095 MVA. Norbygata 19, 0187 Oslo. E-post: kontakt@snuttverk.no. Telefon: +47 912 90 416.
 
 **Hvilke opplysninger samles inn?**  
 Gjennom kontaktskjemaet kan du sende navn, e-post, telefon (valgfritt), bedrift (valgfritt), nettside/kanaler (valgfritt), valgt pakke og melding.

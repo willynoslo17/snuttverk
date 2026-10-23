@@ -89,13 +89,13 @@
         );
       } else {
         setStatus(
-          "Beklager, noe gikk galt. Prøv igjen, eller send oss en e-post på kontakt@mlinternasjonal.no.",
+          "Beklager, noe gikk galt. Prøv igjen, eller send oss en e-post på kontakt@snuttverk.no.",
           "err"
         );
       }
     } catch {
       setStatus(
-        "Beklager, noe gikk galt. Prøv igjen, eller send oss en e-post på kontakt@mlinternasjonal.no.",
+        "Beklager, noe gikk galt. Prøv igjen, eller send oss en e-post på kontakt@snuttverk.no.",
         "err"
       );
     } finally {
