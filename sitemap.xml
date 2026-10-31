@@ -1,89 +1,227 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>https://snuttverk.no/</loc>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://snuttverk.no/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://snuttverk.no/es/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://snuttverk.no/"/>
-  </url>
-  <url>
-    <loc>https://snuttverk.no/pakker/</loc>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://snuttverk.no/pakker/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://snuttverk.no/es/paquetes/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://snuttverk.no/pakker/"/>
-  </url>
-  <url>
-    <loc>https://snuttverk.no/video-og-ugc/</loc>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://snuttverk.no/video-og-ugc/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://snuttverk.no/es/video-y-ugc/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://snuttverk.no/video-og-ugc/"/>
-  </url>
-  <url>
-    <loc>https://snuttverk.no/slik-jobber-jeg/</loc>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://snuttverk.no/slik-jobber-jeg/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://snuttverk.no/es/como-trabajo/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://snuttverk.no/slik-jobber-jeg/"/>
-  </url>
-  <url>
-    <loc>https://snuttverk.no/arbeid/</loc>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url><loc>https://snuttverk.no/arbeid/</loc>
     <xhtml:link rel="alternate" hreflang="nb" href="https://snuttverk.no/arbeid/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://snuttverk.no/es/trabajos/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://snuttverk.no/en/arbeid/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://snuttverk.no/sv/arbeid/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://snuttverk.no/pl/arbeid/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://snuttverk.no/arbeid/"/>
   </url>
-  <url>
-    <loc>https://snuttverk.no/kontakt/</loc>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://snuttverk.no/kontakt/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://snuttverk.no/es/contacto/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://snuttverk.no/kontakt/"/>
-  </url>
-  <url>
-    <loc>https://snuttverk.no/personvern/</loc>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://snuttverk.no/personvern/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://snuttverk.no/es/privacidad/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://snuttverk.no/personvern/"/>
-  </url>
-  <url>
-    <loc>https://snuttverk.no/es/</loc>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://snuttverk.no/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://snuttverk.no/es/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://snuttverk.no/"/>
-  </url>
-  <url>
-    <loc>https://snuttverk.no/es/paquetes/</loc>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://snuttverk.no/pakker/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://snuttverk.no/es/paquetes/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://snuttverk.no/pakker/"/>
-  </url>
-  <url>
-    <loc>https://snuttverk.no/es/video-y-ugc/</loc>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://snuttverk.no/video-og-ugc/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://snuttverk.no/es/video-y-ugc/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://snuttverk.no/video-og-ugc/"/>
-  </url>
-  <url>
-    <loc>https://snuttverk.no/es/como-trabajo/</loc>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://snuttverk.no/slik-jobber-jeg/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://snuttverk.no/es/como-trabajo/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://snuttverk.no/slik-jobber-jeg/"/>
-  </url>
-  <url>
-    <loc>https://snuttverk.no/es/trabajos/</loc>
+  <url><loc>https://snuttverk.no/en/arbeid/</loc>
     <xhtml:link rel="alternate" hreflang="nb" href="https://snuttverk.no/arbeid/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://snuttverk.no/es/trabajos/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://snuttverk.no/en/arbeid/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://snuttverk.no/sv/arbeid/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://snuttverk.no/pl/arbeid/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://snuttverk.no/arbeid/"/>
   </url>
-  <url>
-    <loc>https://snuttverk.no/es/contacto/</loc>
+  <url><loc>https://snuttverk.no/sv/arbeid/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://snuttverk.no/arbeid/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://snuttverk.no/en/arbeid/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://snuttverk.no/sv/arbeid/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://snuttverk.no/pl/arbeid/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://snuttverk.no/arbeid/"/>
+  </url>
+  <url><loc>https://snuttverk.no/pl/arbeid/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://snuttverk.no/arbeid/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://snuttverk.no/en/arbeid/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://snuttverk.no/sv/arbeid/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://snuttverk.no/pl/arbeid/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://snuttverk.no/arbeid/"/>
+  </url>
+  <url><loc>https://snuttverk.no/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://snuttverk.no/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://snuttverk.no/en/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://snuttverk.no/sv/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://snuttverk.no/pl/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://snuttverk.no/"/>
+  </url>
+  <url><loc>https://snuttverk.no/en/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://snuttverk.no/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://snuttverk.no/en/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://snuttverk.no/sv/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://snuttverk.no/pl/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://snuttverk.no/"/>
+  </url>
+  <url><loc>https://snuttverk.no/sv/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://snuttverk.no/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://snuttverk.no/en/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://snuttverk.no/sv/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://snuttverk.no/pl/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://snuttverk.no/"/>
+  </url>
+  <url><loc>https://snuttverk.no/pl/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://snuttverk.no/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://snuttverk.no/en/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://snuttverk.no/sv/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://snuttverk.no/pl/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://snuttverk.no/"/>
+  </url>
+  <url><loc>https://snuttverk.no/kontakt/</loc>
     <xhtml:link rel="alternate" hreflang="nb" href="https://snuttverk.no/kontakt/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://snuttverk.no/es/contacto/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://snuttverk.no/en/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://snuttverk.no/sv/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://snuttverk.no/pl/kontakt/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://snuttverk.no/kontakt/"/>
   </url>
-  <url>
-    <loc>https://snuttverk.no/es/privacidad/</loc>
+  <url><loc>https://snuttverk.no/en/kontakt/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://snuttverk.no/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://snuttverk.no/en/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://snuttverk.no/sv/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://snuttverk.no/pl/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://snuttverk.no/kontakt/"/>
+  </url>
+  <url><loc>https://snuttverk.no/sv/kontakt/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://snuttverk.no/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://snuttverk.no/en/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://snuttverk.no/sv/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://snuttverk.no/pl/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://snuttverk.no/kontakt/"/>
+  </url>
+  <url><loc>https://snuttverk.no/pl/kontakt/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://snuttverk.no/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://snuttverk.no/en/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://snuttverk.no/sv/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://snuttverk.no/pl/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://snuttverk.no/kontakt/"/>
+  </url>
+  <url><loc>https://snuttverk.no/pakker/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://snuttverk.no/pakker/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://snuttverk.no/en/pakker/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://snuttverk.no/sv/pakker/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://snuttverk.no/pl/pakker/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://snuttverk.no/pakker/"/>
+  </url>
+  <url><loc>https://snuttverk.no/en/pakker/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://snuttverk.no/pakker/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://snuttverk.no/en/pakker/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://snuttverk.no/sv/pakker/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://snuttverk.no/pl/pakker/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://snuttverk.no/pakker/"/>
+  </url>
+  <url><loc>https://snuttverk.no/sv/pakker/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://snuttverk.no/pakker/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://snuttverk.no/en/pakker/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://snuttverk.no/sv/pakker/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://snuttverk.no/pl/pakker/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://snuttverk.no/pakker/"/>
+  </url>
+  <url><loc>https://snuttverk.no/pl/pakker/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://snuttverk.no/pakker/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://snuttverk.no/en/pakker/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://snuttverk.no/sv/pakker/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://snuttverk.no/pl/pakker/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://snuttverk.no/pakker/"/>
+  </url>
+  <url><loc>https://snuttverk.no/personvern/</loc>
     <xhtml:link rel="alternate" hreflang="nb" href="https://snuttverk.no/personvern/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://snuttverk.no/es/privacidad/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://snuttverk.no/en/personvern/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://snuttverk.no/sv/personvern/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://snuttverk.no/pl/personvern/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://snuttverk.no/personvern/"/>
   </url>
-<url><loc>https://snuttverk.no/vilkar/</loc></url>
+  <url><loc>https://snuttverk.no/en/personvern/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://snuttverk.no/personvern/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://snuttverk.no/en/personvern/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://snuttverk.no/sv/personvern/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://snuttverk.no/pl/personvern/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://snuttverk.no/personvern/"/>
+  </url>
+  <url><loc>https://snuttverk.no/sv/personvern/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://snuttverk.no/personvern/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://snuttverk.no/en/personvern/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://snuttverk.no/sv/personvern/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://snuttverk.no/pl/personvern/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://snuttverk.no/personvern/"/>
+  </url>
+  <url><loc>https://snuttverk.no/pl/personvern/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://snuttverk.no/personvern/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://snuttverk.no/en/personvern/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://snuttverk.no/sv/personvern/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://snuttverk.no/pl/personvern/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://snuttverk.no/personvern/"/>
+  </url>
+  <url><loc>https://snuttverk.no/slik-jobber-jeg/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://snuttverk.no/slik-jobber-jeg/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://snuttverk.no/en/slik-jobber-jeg/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://snuttverk.no/sv/slik-jobber-jeg/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://snuttverk.no/pl/slik-jobber-jeg/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://snuttverk.no/slik-jobber-jeg/"/>
+  </url>
+  <url><loc>https://snuttverk.no/en/slik-jobber-jeg/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://snuttverk.no/slik-jobber-jeg/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://snuttverk.no/en/slik-jobber-jeg/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://snuttverk.no/sv/slik-jobber-jeg/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://snuttverk.no/pl/slik-jobber-jeg/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://snuttverk.no/slik-jobber-jeg/"/>
+  </url>
+  <url><loc>https://snuttverk.no/sv/slik-jobber-jeg/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://snuttverk.no/slik-jobber-jeg/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://snuttverk.no/en/slik-jobber-jeg/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://snuttverk.no/sv/slik-jobber-jeg/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://snuttverk.no/pl/slik-jobber-jeg/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://snuttverk.no/slik-jobber-jeg/"/>
+  </url>
+  <url><loc>https://snuttverk.no/pl/slik-jobber-jeg/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://snuttverk.no/slik-jobber-jeg/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://snuttverk.no/en/slik-jobber-jeg/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://snuttverk.no/sv/slik-jobber-jeg/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://snuttverk.no/pl/slik-jobber-jeg/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://snuttverk.no/slik-jobber-jeg/"/>
+  </url>
+  <url><loc>https://snuttverk.no/video-og-ugc/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://snuttverk.no/video-og-ugc/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://snuttverk.no/en/video-og-ugc/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://snuttverk.no/sv/video-og-ugc/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://snuttverk.no/pl/video-og-ugc/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://snuttverk.no/video-og-ugc/"/>
+  </url>
+  <url><loc>https://snuttverk.no/en/video-og-ugc/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://snuttverk.no/video-og-ugc/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://snuttverk.no/en/video-og-ugc/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://snuttverk.no/sv/video-og-ugc/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://snuttverk.no/pl/video-og-ugc/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://snuttverk.no/video-og-ugc/"/>
+  </url>
+  <url><loc>https://snuttverk.no/sv/video-og-ugc/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://snuttverk.no/video-og-ugc/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://snuttverk.no/en/video-og-ugc/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://snuttverk.no/sv/video-og-ugc/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://snuttverk.no/pl/video-og-ugc/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://snuttverk.no/video-og-ugc/"/>
+  </url>
+  <url><loc>https://snuttverk.no/pl/video-og-ugc/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://snuttverk.no/video-og-ugc/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://snuttverk.no/en/video-og-ugc/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://snuttverk.no/sv/video-og-ugc/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://snuttverk.no/pl/video-og-ugc/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://snuttverk.no/video-og-ugc/"/>
+  </url>
+  <url><loc>https://snuttverk.no/vilkar/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://snuttverk.no/vilkar/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://snuttverk.no/en/vilkar/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://snuttverk.no/sv/vilkar/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://snuttverk.no/pl/vilkar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://snuttverk.no/vilkar/"/>
+  </url>
+  <url><loc>https://snuttverk.no/en/vilkar/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://snuttverk.no/vilkar/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://snuttverk.no/en/vilkar/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://snuttverk.no/sv/vilkar/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://snuttverk.no/pl/vilkar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://snuttverk.no/vilkar/"/>
+  </url>
+  <url><loc>https://snuttverk.no/sv/vilkar/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://snuttverk.no/vilkar/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://snuttverk.no/en/vilkar/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://snuttverk.no/sv/vilkar/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://snuttverk.no/pl/vilkar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://snuttverk.no/vilkar/"/>
+  </url>
+  <url><loc>https://snuttverk.no/pl/vilkar/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://snuttverk.no/vilkar/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://snuttverk.no/en/vilkar/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://snuttverk.no/sv/vilkar/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://snuttverk.no/pl/vilkar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://snuttverk.no/vilkar/"/>
+  </url>
 </urlset>
