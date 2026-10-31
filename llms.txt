@@ -15,11 +15,29 @@ Adresse: Norbygata 19, 0187 Oslo
 - [Kontakt](https://snuttverk.no/kontakt/): Skjema og om meg
 - [Personvern](https://snuttverk.no/personvern/): Personvernerklæring
 
-## Páginas (español)
-- [Inicio](https://snuttverk.no/es/): Resumen y paquete Start
-- [Paquetes y precios](https://snuttverk.no/es/paquetes/)
-- [Vídeo y UGC](https://snuttverk.no/es/video-y-ugc/)
-- [Cómo trabajo](https://snuttverk.no/es/como-trabajo/)
-- [Trabajos](https://snuttverk.no/es/trabajos/)
-- [Contacto](https://snuttverk.no/es/contacto/)
-- [Privacidad](https://snuttverk.no/es/privacidad/)
+## Pages (English)
+- [Home](https://snuttverk.no/en/): Overview and Start package
+- [Packages and prices](https://snuttverk.no/en/pakker/): Start, Pluss, Annonsevideo, Meta ads
+- [Video and UGC](https://snuttverk.no/en/video-og-ugc/): How video and UGC are created
+- [This is how I work](https://snuttverk.no/en/slik-jobber-jeg/): Process and working method
+- [Work](https://snuttverk.no/en/arbeid/): Examples
+- [Contact](https://snuttverk.no/en/kontakt/): Form and about me
+- [Privacy](https://snuttverk.no/en/personvern/): Privacy statement
+
+## Sidor (svenska)
+- [Hem](https://snuttverk.no/sv/): Översikt och startpaket
+- [Paket och priser](https://snuttverk.no/sv/pakker/): Start, Pluss, Annonsevideo, Meta annonser
+- [Video och UGC](https://snuttverk.no/sv/video-og-ugc/): Hur video och UGC skapas
+- [Så här jobbar jag](https://snuttverk.no/sv/slik-jobber-jeg/): Process och arbetssätt
+- [Arbete](https://snuttverk.no/sv/arbeid/): Exempel
+- [Kontakta](https://snuttverk.no/sv/kontakt/): Form och om mig
+- [Privatliv](https://snuttverk.no/sv/personvern/): Sekretesspolicy
+
+## Strony (polski)
+- [Dom](https://snuttverk.no/pl/): Przegląd i pakiet startowy
+- [Pakiety i ceny](https://snuttverk.no/pl/pakker/): Reklamy Start, Pluss, Annonsevideo, Meta
+- [Wideo i UGC](https://snuttverk.no/pl/video-og-ugc/): Jak powstają wideo i UGC
+- [Tak właśnie pracuję](https://snuttverk.no/pl/slik-jobber-jeg/): Proces i metoda pracy
+- [Praca](https://snuttverk.no/pl/arbeid/): Przykłady
+- [Kontakt](https://snuttverk.no/pl/kontakt/): Forma i o mnie
+- [Prywatność](https://snuttverk.no/pl/personvern/): Oświadczenie o ochronie prywatności
